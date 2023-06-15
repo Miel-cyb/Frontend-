@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo{
+    width: 60px;
+}
+.user,.phone{
+    width: 100px;
+}
+header{
+    background-color: rgb(254, 223, 178);
+}
+header div{
+    display: flex;
+}
+#menu-btn{
+  font-size: 2rem; 
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  float: right;
+  margin-top: -35px;
+  padding: 10px;
+}
+#menu-btn:hover{
+border: 2px solid black;
+cursor: pointer;
+border-radius: 5px;
+}
+.menu li{
+    list-style-type: none;
+   
+}
+.menu{
+   line-height: 60px;
+   width: 100%;
+   box-sizing: border-box;
+   cursor: pointer;
+}
+.menu ul li:hover{
+    background-color: rgb(253, 216, 162);
+}
+#check{
+    display: none;
+}
+
+/* #check:checked ~ header{
+    height: 60vh;
+} */
+/* #check:checked ~ .menu li{
+ display: none;
+} */
+
+
+.intro-section{
+    background: url(./laptop.jpg);
+    background-size: cover;
+    height: 90vh;
+    color: white;   
+}
+ 
+#underline{
+    width: 100px;
+    background-color: orangered;
+    height: 2px;
+    width: 100px;
+    border-color: orangered;
+    margin-left: 10rem;
+}
+
+center p{
+    font-size: 20px;
+    text-align: center;
+}
+center button{
+padding: 20px;
+border-radius: 15px;
+background-color: orangered;
+border: 1px blanchedalmond;
+color: white;
+text-align: center;
+}
+
+.user-section{
+    background-color: rgb(249, 87, 28);
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-size: 30px;
+}
+.user-section hr{
+     width: 100px;
+    background-color: white;
+    height: 2px;
+    width: 100px;
+    border-color: white;
+}
+.entry-item{
+    line-height: 10px;
+}
+.user-section button{
+    color: white;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+     padding: 5px;
+       width: 100px; 
+}
+ button:hover{
+   background-color: rgb(248, 117, 70);
+    border: 1px inset;
+    color: white;
+    border-radius: 10px; 
+}
+.help-section{
+   text-align: center;
+    font-size: 30px;
+}
+.help-section p{
+    font-size: 17px;
+}
+footer{
+    background-color: rgb(58, 58, 58);
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
